@@ -1,0 +1,12 @@
+.banner-body {
+  background: #83bfff url(../../../../assets/images/home-banner-background.svg) 0 0 repeat;
+  background-size: cover;
+
+  &__content {
+    padding: var(--space-48) 0;
+
+    & > button {
+      margin-top: var(--space-8);
+    }
+  }
+}
