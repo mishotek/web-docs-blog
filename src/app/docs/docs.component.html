@@ -1,0 +1,7 @@
+<main *ngIf="doc">
+  <h1>{{doc.title}}</h1>
+
+  <article [innerHTML]="doc.html | safeHtml">
+
+  </article>
+</main>
